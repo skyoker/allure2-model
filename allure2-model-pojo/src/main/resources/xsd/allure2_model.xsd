@@ -156,6 +156,21 @@
             <xsd:enumeration value="broken"/>
             <xsd:enumeration value="passed"/>
             <xsd:enumeration value="skipped"/>
+            <xsd:enumeration value="pending"/>
+            <xsd:enumeration value="knownissuesonly">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:typesafeEnumMember name="KNOWN_ISSUES_ONLY" />
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="notcovered">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:typesafeEnumMember name="NOT_COVERED" />
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:enumeration>
         </xsd:restriction>
     </xsd:simpleType>
 
