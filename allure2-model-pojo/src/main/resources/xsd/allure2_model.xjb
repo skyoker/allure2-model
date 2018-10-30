@@ -10,8 +10,6 @@
                jaxb:version="2.1">
 
     <jaxb:bindings node="//xsd:complexType[@name='ExecutableItem']">
-        <inheritance:implements>io.qameta.allure.model.WithSteps</inheritance:implements>
-        <inheritance:implements>io.qameta.allure.model.WithAttachments</inheritance:implements>
         <inheritance:implements>io.qameta.allure.model.WithParameters</inheritance:implements>
         <inheritance:implements>io.qameta.allure.model.WithStatusDetails</inheritance:implements>
     </jaxb:bindings>
